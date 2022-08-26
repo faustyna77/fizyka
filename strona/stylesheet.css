@@ -1,0 +1,199 @@
+
+h1{
+    color: aqua;
+    font-size: 3em;
+}
+
+.data
+{
+    width: 150px;
+    height: 170px;
+    background-color: brown;
+    margin: 52px;
+ border-style: solid;
+ padding: 50px;
+}
+.heading-box a
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-left-color: black;
+}
+nav,footer
+{
+  background-color: black;
+  color:rgb(221, 28, 125)
+}
+
+.navitem 
+{    display: inline-block;
+  list-style: none;
+  text-transform: uppercase;
+  margin:0 25px
+   
+}
+.navitem>a
+{
+    text-decoration: none;
+  color: brown;
+  padding: 20px;
+  display: block;
+  width: 150px;
+}
+.navitem>a:hover
+{
+    background-color: aquamarine;
+    color:black
+}
+.slider
+{
+    
+  background:black;
+  min-height:450px;
+  position: relative;
+}
+.heading-box
+{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: rgb(11, 185, 197);
+}
+
+section:nth-of-type(odd)
+{
+
+
+    background: rgb(216, 14, 132);
+    color:black;
+}
+section:nth-of-type(even)
+{
+
+
+    background: rgb(10, 10, 10);
+    color:rgb(226, 17, 28);
+}
+.flex-contener
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-item li
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    font-size: 16px;
+}
+
+
+.btn
+{
+    font-size: 2em;
+    margin:15px auto;
+    display:block;
+    width: 175px;
+    padding:5px 15px;
+}
+.btn:hover{
+    border:1px solid rgb(216, 14, 132);
+}
+.btn2
+{
+    font-size: 2em;
+    margin:15px auto;
+    display:block;
+    width: 175px;
+    padding:5px 15px;
+}
+.btn2:hover{
+    border:1px solid rgb(14, 44, 216);
+}
+.btn3
+{
+    font-size: 2em;
+    margin:30px auto;
+    display:block;
+    width: 175px;
+    padding:5px 15px;
+    margin-left: 50px;
+}
+.btn3:hover{
+    border:1px solid rgb(202, 231, 38);
+}
+.btn4
+{
+    font-size: 2em;
+    margin:15px auto;
+    display:block;
+    width: 175px;
+    padding:5px 15px;
+}
+.btn4:hover{
+    border:1px solid rgb(23, 219, 56);
+}
+.plazma
+{
+    width:130px;
+    height: 100px;
+    background-color: blue;
+    border-color: bisque;
+    padding: 50px;
+    
+}
+
+.content
+   {
+    width: 160px;
+ height: 60px;
+ padding: 15px;
+ border: 5px navy;
+ margin: 25px;
+ border-style: solid;
+   }
+   .content2
+   {
+    width: 160px;
+ height: 60px;
+ padding: 15px;
+ border: 5px navy;
+ margin: 25px;
+ border-style: solid;
+   }
+   .content3
+   {
+    background-color: rgb(30, 13, 149);
+    max-width: 80px;
+   }
+   .footer
+   {
+    padding: 20px;
+    height:max-content;
+    width:fit-content;
+   }
+   footer.flex-contener
+   {
+    justify-content: space-evenly;
+   }
+
+   .social
+   {
+    color:rgb(23, 147, 219);
+    font-weight:30px;
+    height: 30px;
+
+    
+   }
+   .social p{
+
+     font-size: larger;
+     background-color: black;
+
+
+   }
+    
